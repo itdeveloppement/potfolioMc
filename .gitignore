@@ -1,0 +1,4 @@
+# fichiers ignorés à la racine
+*.vscode
+*.env
+!.gitignore 
