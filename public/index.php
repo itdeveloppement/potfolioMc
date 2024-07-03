@@ -7,7 +7,7 @@
 </head>
 <body>
     
-<h2>En travaux. Bientot accessible !</h2>
-<img src="public/images/travaux.img" alt="">
+<h2>Site momentanément inaccessible.</h2>
+
 </body>
 </html>
