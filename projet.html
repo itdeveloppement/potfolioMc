@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- titre max 55/65 caracteres -->
+    <title>Concéption d'applications web</title>
+    <!-- meta description max 160 caracteres -->
+    <meta name="description" content="Ma description">
+    <!-- link css swiper-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+      <!-- link css hambergers-->
+      <link rel="stylesheet" href="./assets/css/hamburgers.css"/>
+    <!-- link css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+      <!-- favicon et image à la racine du site-->
+      <link rel="shortcut icon" type="image/png" href="./favicon.ico"/>
+      
+    <!--link font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <!--link framework-->
+</head> 
+ 
+<body>
+    <!-- HEADER -->
+    <header>
+        <section class="nav-bar flex">
+            <!-- navigation centrale-->
+            <nav class="nav-central">
+                <ul class="nav-ul header__nav-ul flex">
+                    <li class="nav-li header__li"><a class="link header__link" href="https://itdeveloppement.github.io/Portofolio/index.html#accueil">Accueil</a></li>
+                    <li class="nav-li header__li"><a class="link header__link" href="https://itdeveloppement.github.io/Portofolio/index.html#traveaux">Projets</a></li>
+                    <li class="nav-li header__li"><a class="link header__link" href="https://itdeveloppement.github.io/Portofolio/index.html#about">About me</a></li>
+                    <li class="nav-li header__li"><a class="link  header__link" href="https://itdeveloppement.github.io/Portofolio/index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- nav droite -->
+            <nav class="nav-right flex">
+                <!-- nav droite -->
+                <div class="reseaux__logo flex">
+                    <a class="link reseaux__link-logo" href="https://www.linkedin.com/in/marti-castellano-6396402a6/"><img src="./assets/icons/linkedin.png" alt="logo du reseau social Linkedin"></a>
+                    <a class="link reseaux__link-logo" href="https://github.com/itdeveloppement" title="lien vers la page github"><img src="./assets/icons/github.png" alt="logo de github"></a>
+                </div>
+                <!-- changer la typo -->
+                <button id="btn-typo" type="button">Changer la typo</button>
+            </nav>
+
+            <!-- burger import burger Collapse -->
+            <button class="header-burger header-burger--is-open hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+                </span>
+            </button> 
+        </section>
+        <!-- modale menu-->
+        <section class="header-modal">
+            <!-- changer la typo -->
+            <button id="btn-typo" type="button">Changer la typo</button>
+            <!-- nav haut -->
+            <nav class="nav-height">
+                <ul class="nav-ul header__nav-ul flex">
+                    <li class="nav-li header__li"><a class="link header__link" href="https://itdeveloppement.github.io/Portofolio/index.html#accueil">Accueil</a></li>
+                    <li class="nav-li header__li"><a class="link header__link" href="https://itdeveloppement.github.io/Portofolio/index.html#traveaux">Projets</a></li>
+                    <li class="nav-li header__li"><a class="link header__link" href="https://itdeveloppement.github.io/Portofolio/index.html#about">About me</a></li>
+                    <li class="nav-li header__li"><a class="link  header__link" href="https://itdeveloppement.github.io/Portofolio/index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main_projet">
+        <section class="page-projet container-1200">
+            <!-- affichage avec JS
+            <h2 class="title-h4">${data.nameProjet}</h2>
+            <p>${data.presentationProjet}</p>
+            <section class="pjt-slide flex">
+                ${templateImages (datasProjet)}
+            </section>
+            <section class="pjt-description flex">
+                <div class="ptj-description__description">
+                    <h5 class="title-h5">Contexte</h5>
+                    <p>${data.contexte}</p>
+                </div>
+                <div class="ptj-description__description">
+                    <h5 class="title-h5">Mon rôle</h5>
+                    <p>${data.role}</p>
+                </div>
+                <div class="ptj-description__description ptj-description__techno flex">
+                    <h5 class="title-h5">Technologies utilisées</h5>
+                    ${templateTechnos (datasProjet)}
+                </div>
+                <div class="ptj-description__description">
+                    <h5 class="title-h5">Commanditaire</h5>
+                    <p>${data.commanditaire}</p>
+                </div>
+            </section> -->
+        </section>
+    </main>
+    
+     <!-- FOOTER -->
+     <footer class="footer flex" id="contact">
+        <!-- nav left -->
+        <nav class="footer__nav-left large-6 medium-12" >
+            <h4 class="title-h4 footer__title-h4">Navigation</h4>
+            <ul class="nav-ul footer__nav-ul">
+                <li class="nav-li header__li"><a class="link header__link" href="https://itdeveloppement.github.io/Portofolio/index.html#accueil">Accueil</a></li>
+                <li class="nav-li header__li"><a class="link header__link" href="https://itdeveloppement.github.io/Portofolio/index.html#traveaux">Projets</a></li>
+                <li class="nav-li header__li"><a class="link header__link" href="https://itdeveloppement.github.io/Portofolio/index.html#about">About me</a></li>
+                <li class="nav-li header__li"><a class="link  header__link" href="https://itdeveloppement.github.io/Portofolio/index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- nav right -->
+        <div class="footer__nav-right large-6 medium-12">
+            <address class="address footer__address ">
+                <h4 class="title-h4 footer__title-h4">Contact</h4>
+                <a class="link footer-adresse__link" href="mailto:exemple@contact.com">numerique.marti@contact.com</a>
+            </address>
+            <div class="reseaux__logo flex">
+                <a class="link reseaux__link-logo" href="https://www.linkedin.com/in/marti-castellano-6396402a6/"><img src="./assets/icons/linkedin.png" alt="logo du reseau social Linkedin"></a>
+                <a class="link reseaux__link-logo" href="https://github.com/itdeveloppement" title="lien vers la page github"><img src="./assets/icons/github.png" alt="logo de github"></a>
+            </div>
+        </div>
+        <p class="footer__mentions">Marti Castellano 2024 ©</p>
+    </footer>
+        
+    <!-- lien fichier js-->
+    <script src="./assets/js/projet.js" defer></script>
+</body>
+</html>
